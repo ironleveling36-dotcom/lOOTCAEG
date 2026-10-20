@@ -42,7 +42,7 @@ load_dotenv()
 # CONFIG
 # ────────────────────────────────────────────────
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "8645142724").split(",") if x.strip()]
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "5264634737").split(",") if x.strip()]
 SESSION_TTL_SECONDS = int(os.getenv("SESSION_TTL_SECONDS", "86400"))
 MAX_CONCURRENT = int(os.getenv("MAX_CONCURRENT_UPDATES", "32"))
 
